@@ -1,44 +1,57 @@
 ---
-title: Home
+title: Prison Education
+
 hero:
-  title: The New Standard In Offender Education Software
+  title: The New Standard In Prison Education Software
   text:  After 12 months of development, we've created an education solution which will help thousands of inmates around the world study, gain qualifications and desist from crime.
   button:
     title: Learn more
     url: #intro
 triple:
   title: Education Is A Positive For Everyone Involved
-  text: Decades of research has shown that offenders who participate in prison education are more likely to desist from violent crimes and stay out of prison once released. 
+  text: Core Education benefits the entire prison, including prisoners, staff, teachers.
   box: # in groups of 3
-    - title: Offline Education
-      text: Core's education software allows users to view class content, complete coursework, and upload and download documentation offline!
+    - title: Offenders
+      text: Core Education helps offenders gain essential qualifications which will help them live a life without crime.
       src: /images/undraw_designer.svg
       alt: text1
-    - title: Works On Multiple Devices
-      text: It works on tablets, laptops, and PCs, allowing the customer to choose the best device for their environment and users. 
+    - title: Staff 
+      text: Core Education helps staff improve the knowledge and skills required to perform their role efficiently.
       src: /images/undraw_responsive.svg
       alt: Nunc dignissim risus id metus
-    - title: Perfect For Classroom And In Cell
-      text: With Offline/Online capability, as well as working on desktops, laptops, and tablets, Core's platform is perfect for all educational environments.
-      src: /images/undraw_creation.svg
+    - title: Teachers
+      text: Teachers will love the new simple interface, which will help them control and deliver classes more effectively.
+      src: /images/undraw_teacher.svg
       alt: Vestibulum auctor dapibus neque
 single:
-  - title: Teacher Interface
-    text: Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    src: /images/undraw_browser.svg
+  - title: Offline Education
+    text: Core's education software allows users to view class content, complete coursework, and upload and download documentation offline!
+    src: /images/course-list.jpg
     alt: Cras ornare tristique elit
-  - title: Student and Teacher Communications
-    text: Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
-    src: /images/undraw_frameworks.svg
+  - title: Multiple Devices
+    text: Core Education works on tablets, laptops, and PCs, allowing the customer to choose the best device for their environment and users. 
+    src: /images/lesson.jpg
+    alt: Vestibulum auctor dapibus neque
+  - title: Courses
+    text: Courses are delivered across an intuitive interface which makes the education process a lot easier. Courses can include lessons and additional learning materials in multiple formats.
+    src: /images/course.jpg
+    alt: Vestibulum auctor dapibus neque
+  - title: Documents
+    text: Whether it's in the classroom or in cell, students can read documentation, write notes, and submit coursework in just a few simple steps.
+    src: /images/documents.jpg
     alt: Vestibulum auctor dapibus neque
   - title: Tests
-    text: Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-    src: /images/together.svg
+    text: Tests are a crucial mechanism for tracking progress and identifying students who need additional help. They're also a great motivator, especially when combined with certifications.
+    src: /images/tests.jpg
+    alt: Vestibulum auctor dapibus neque
+  - title: Communications
+    text: Feedback is an important element of education. Core Education simplifies the communication and feedback process with in-built messaging.
+    src: /images/communications.jpg
     alt: Vestibulum auctor dapibus neque
 
 cta:
-  title: Praesent placerat risus quis eros
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title: Book A Demo
+  text: Complete the form below to book a quick demo of Core Education.
   button:
     title: BOOK A DEMO
 ---

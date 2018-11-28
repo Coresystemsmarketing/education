@@ -1,0 +1,1 @@
+start hugo server pause
