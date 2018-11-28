@@ -1,7 +1,7 @@
 baseURL: "http://example.org/"
 languageCode: en-us
 title: Core Education
-theme: evie-hugo
+theme: education
 permalinks:
   post: "/post/:year/:month/:day/:slug/"
   note: "/note/:year/:month/:day/:slug/"
