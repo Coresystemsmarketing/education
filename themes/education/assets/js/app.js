@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
 					// Prevent the default link behavior
 					e.preventDefault();
 					// Get anchor link and calculate distance from the top
-					var dataTarget = document.querySelector(".background__section");
+					var dataTarget = document.querySelector(".landing.background");
 					var dataSpeed = toggle.getAttribute("data-speed");
 					// If the anchor exists
 					if (dataTarget) {
