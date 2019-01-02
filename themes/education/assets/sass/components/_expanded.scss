@@ -36,15 +36,6 @@
 
 }
 
-.expanded:nth-child(even){
-	.expanded__media{
-		order: 1;
-
-		@include desktop{
-			order: 1;
-		}
-	}
-}
 
 /* Actual content */
 .expanded__image{
