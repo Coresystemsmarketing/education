@@ -1,0 +1,96 @@
+.navbar {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: $primary;
+	transition: 0.7s;
+
+	&--nofixed {
+		position: relative;
+		z-index: 3;
+	}
+}
+
+.navbar__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: $navbar-height;
+	color: #fff;
+	transition: 0.7s;
+}
+
+// Content
+.navbar__logo {
+	font-size: 1.325rem;
+	transition: 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar__menu {
+	display: none;
+
+	&--noMob {
+		display: block;
+	}
+
+	@include desktop {
+		display: block;
+	}
+
+	li {
+		margin-left: 4pt;
+		backface-visibility: hidden;
+		display: inline-block;
+
+		@include desktop {
+			margin-left: 16pt;
+		}
+	}
+
+	a {
+		color: #fff;
+		@include desktop {
+			opacity: 0.75;
+
+			&:hover {
+				opacity: 1;
+			}
+
+			&:after {
+				display: block;
+				content: "";
+				border-bottom: solid 1px #fff;
+				transform: scaleX(0);
+				transition: transform 250ms ease-in-out;
+			}
+
+			&:hover:after {
+				transform: scaleX(1);
+			}
+		}
+	}
+}
+
+.navbar__menu-mob {
+	display: block;
+
+	&--noMob {
+		display: none;
+	}
+
+	@include desktop {
+		display: none;
+	}
+}
+
+/*--- Extended and transparent version ---*/
+.navbar--extended {
+	background-color: transparent;
+
+	.navbar__inner {
+		height: $navbar-height;
+		color: $hero-color; // Since this is transparent whatever color is used in the hero, fits here
+	}
+}

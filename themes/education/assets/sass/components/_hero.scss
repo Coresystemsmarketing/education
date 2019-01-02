@@ -1,0 +1,126 @@
+.hero {
+	position: relative;
+	width: 100%;
+	background-image: url("../images/evie_default_bg.jpeg");
+	box-shadow: $hero-shadow;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: $hero-color;
+
+	&__inner {
+		position: relative;
+		z-index: 3;
+	}
+}
+
+// Hero overlays
+// It contains two divs between the image and the content
+// The one is the SVG mask and the second one a colored overlay with high opacity
+
+// Color overlay
+.hero__overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: $hero-color-opacity;
+	z-index: 1;
+	background-color: $primary;
+}
+
+.hero__overlay--gradient {
+	background: linear-gradient(to right, $primary, $secondary);
+}
+
+.hero__overlay--gradientVertical {
+	background: linear-gradient(to bottom, $primary, $secondary);
+}
+
+
+
+// Actual content
+.hero__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 50px);
+	padding: calc(#{$navbar-height + 24pt}) 0; // Padding added to avoid overlapping with fixed navigation bars
+	overflow: auto;
+
+	// This div allows normal behaviors for contained elements instead of flexbox aligning them
+	&__inner {
+		width: 100%;
+		max-width: 600px;
+		text-align: center;
+	}
+}
+
+/*--- CONTENT STYLING ---*/
+.hero__title {
+	color: inherit;
+	margin-bottom: 1.25em;
+	font-size: 2.5em;
+
+}
+
+.hero__text {
+	opacity: 0.85;
+	line-height: 1.7;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.hero .button {
+	margin: 12pt 8pt;
+}
+
+.hero__button {
+	color: $hero-color;
+	border-color: $hero-color;
+
+	@include desktop {
+		&:hover {
+			color: darken($hero-color, 11%);
+			border-color: darken($hero-color, 11%);
+		}
+	}
+}
+
+// Sub-hero
+.hero__sub {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+.hero__sub__down {
+	width: 3rem;
+	height: 3rem;
+	color: #06d19c;
+	transition: 0.7s;
+	cursor: pointer;
+
+	@include desktop {
+		&:hover {
+			color: #14f7be;
+		}
+	}
+}
+
+#scrollToNext {
+	transition: 0.7s;
+}
+
+/*--- MODIFICATIONS ---*/
+
+// With the class "hero-full" the white line between the hero gets hidden and the hero expands
+.hero--full {
+	.hero__content {
+		min-height: 100vh;
+	}
+}
+
+.hero--full + .hero__sub {
+	display: none;
+}
