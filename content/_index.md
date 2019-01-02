@@ -11,8 +11,8 @@ triple:
   title: Core Education Benefits The Entire Prison
   text: Education is a positive for everyone involved, including prisoners, staff, teachers.
   box: # in groups of 3
-    - title: Offenders
-      text: Core Education helps offenders gain essential qualifications which will help them live a life without crime.
+    - title: Students
+      text: Core Education helps students gain essential qualifications which will help them live a life without crime.
       src: /images/undraw_designer.svg
       alt: text1
     - title: Staff 
