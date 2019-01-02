@@ -1,15 +1,15 @@
 ---
-title: Prison Education
+title: The New Standard In Prison Education Software
 
 hero:
   title: The New Standard In Prison Education Software
-  text:  After 12 months of development, we've created an education solution which will help thousands of inmates around the world study, gain qualifications and desist from crime.
+  text:  Core has created an education solution which will help thousands of people around the world study, gain qualifications and improve their education in prison.
   button:
     title: Learn more
     url: #intro
 triple:
-  title: Education Is A Positive For Everyone Involved
-  text: Core Education benefits the entire prison, including prisoners, staff, teachers.
+  title: Core Education Benefits The Entire Prison
+  text: Education is a positive for everyone involved, including prisoners, staff, teachers.
   box: # in groups of 3
     - title: Offenders
       text: Core Education helps offenders gain essential qualifications which will help them live a life without crime.
@@ -23,6 +23,9 @@ triple:
       text: Teachers will love the new simple interface, which will help them control and deliver classes more effectively.
       src: /images/undraw_teacher.svg
       alt: Vestibulum auctor dapibus neque
+Video:
+  title: A Positive For Everyone
+  text: Core Education benefits the entire prison, including prisoners, staff, teachers.
 single:
   - title: Offline Education
     text: Core's education software allows users to view class content, complete coursework, and upload and download documentation offline!
