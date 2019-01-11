@@ -12,15 +12,15 @@ triple:
   text: Education is a positive for everyone involved, including prisoners, staff, teachers.
   box: # in groups of 3
     - title: Students
-      text: Core Education helps students gain essential qualifications which will help them live a life without crime.
+      text: Core Education helps students gain essential skills and qualifications which will help them live a life without crime.
       src: /images/undraw_designer.svg
       alt: text1
-    - title: Staff 
-      text: Core Education helps staff improve the knowledge and skills required to perform their role efficiently.
+    - title: Prison Staff 
+      text: Core Education helps staff improve the knowledge and skills required to perform their role effectively.
       src: /images/undraw_responsive.svg
       alt: Nunc dignissim risus id metus
     - title: Teachers
-      text: Teachers will love the new simple interface, which will help them control and deliver classes more effectively.
+      text: Teachers will love the new simple interface, which will help them manage learning and deliver classes more effectively.
       src: /images/undraw_teacher.svg
       alt: Vestibulum auctor dapibus neque
 Video:
