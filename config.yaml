@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: en-us
-title: Core Education
+title: Core's Prison Education
 theme: education
 permalinks:
   post: "/post/:year/:month/:day/:slug/"
