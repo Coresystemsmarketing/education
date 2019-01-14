@@ -9,7 +9,7 @@ hero:
     url: #intro
 triple:
   title: Core Education Benefits Everyone
-  text: Education is a positive for everyone involved, including students, staff, teachers.
+  text: Education is a positive for everyone involved, including students, staff, and teachers.
   box: # in groups of 3
     - title: Students
       text: Core Education helps students gain essential skills and qualifications to prepare for life after prison.
@@ -32,7 +32,7 @@ single:
     src: /images/course-list.jpg
     alt: course list
   - title: Best Choice For Your Needs
-    text: Core Education works on tablets, laptops, and PCs, allowing to choose the device that best fits your needs. 
+    text: You can choose the best device to fit your needs. Core Prison Education works on tablets, laptops, and PCs.
     src: /images/lesson.jpg
     alt: lesson
   - title: Courses
@@ -48,7 +48,7 @@ single:
     src: /images/tests.jpg
     alt: Tests
   - title: Communications
-    text: Core's Education Communication section provides teachers with a platform to deliver individualised, 1-1 support. For students, it's a great mechanism for asking questions when puzzled.
+    text: Our communication tool enables one to one support. Students can ask their teacher a question when they get stuck.
     src: /images/communications.jpg
     alt: Communications
 
