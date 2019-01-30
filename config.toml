@@ -2,5 +2,4 @@ baseURL = "https://coreeducation.netlify.com/"
 languageCode = "en-uk"
 title = "Core - Prison Education Software"
 theme = "budibase"
-
 copyright = "This work is licensed and owned by Core Systems"
