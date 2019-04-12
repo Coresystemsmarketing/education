@@ -1,5 +1,5 @@
 baseURL = "https://privateprisons.netlify.com/"
 languageCode = "en-uk"
 title = "Core - Private Prison Software"
-theme = "budibase"
+theme = "privateprisons"
 copyright = "This work is licensed and owned by Core Systems"
